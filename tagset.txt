@@ -1,0 +1,119 @@
+Universal Part-of-Speech Tagset
+
+Tag		Meaning					English Examples
+ADJ		adjective				new, good, high, special, big, local
+ADP		adposition				on, of, at, with, by, into, under
+ADV		adverb					really, already, still, early, now
+CONJ	conjunction				and, or, but, if, while, although
+DET		determiner, article		the, a, some, most, every, no, which
+NOUN	noun					year, home, costs, time, Africa
+NUM		numeral					twenty-four, fourth, 1991, 14:24
+PRT		particle				at, on, out, over per, that, up, with
+PRON	pronoun					he, their, her, its, my, I, us
+VERB	verb					is, say, told, given, playing, would
+.		punctuation marks		. , ; !
+X		other					ersatz, esprit, dunno, gr8, univeristy
+
+
+
+Tag	Description	Example
+CC	conjunction, coordinating	and, or, but
+CD	cardinal number	five, three, 13%
+DT	determiner	the, a, these 
+EX	existential there	there were six boys 
+FW	foreign word	mais 
+IN	conjunction, subordinating or preposition	of, on, before, unless 
+JJ	adjective	nice, easy
+JJR	adjective, comparative	nicer, easier
+JJS	adjective, superlative	nicest, easiest 
+LS	list item marker	 
+MD	verb, modal auxillary	may, should 
+NN	noun, singular or mass	tiger, chair, laughter 
+NNS	noun, plural	tigers, chairs, insects 
+NNP	noun, proper singular	Germany, God, Alice 
+NNPS	noun, proper plural	we met two Christmases ago 
+PDT	predeterminer	both his children 
+POS	possessive ending	's
+PRP	pronoun, personal	me, you, it 
+PRP$	pronoun, possessive	my, your, our 
+RB	adverb	extremely, loudly, hard  
+RBR	adverb, comparative	better 
+RBS	adverb, superlative	best 
+RP	adverb, particle	about, off, up 
+SYM	symbol	% 
+TO	infinitival to	what to do? 
+UH	interjection	oh, oops, gosh 
+VB	verb, base form	think 
+VBZ	verb, 3rd person singular present	she thinks 
+VBP	verb, non-3rd person singular present	I think 
+VBD	verb, past tense	they thought 
+VBN	verb, past participle	a sunken ship 
+VBG	verb, gerund or present participle	thinking is fun 
+WDT	wh-determiner	which, whatever, whichever 
+WP	wh-pronoun, personal	what, who, whom 
+WP$	wh-pronoun, possessive	whose, whosever 
+WRB	wh-adverb	where, when 
+.	punctuation mark, sentence closer	.;?* 
+,	punctuation mark, comma	, 
+:	punctuation mark, colon	: 
+(	contextual separator, left paren	( 
+)	contextual separator, right paren	) 
+
+
+https://www.clips.uantwerpen.be/pages/mbsp-tags
+
+
+
+Mapping
+
+
+
+
+#	=>	SYM	_	#
+$	=>	SYM	_	$, C$, US$, A$, HK$
+''	=>	PUNCT	PunctSide=Fin|PunctType=Quot	'', '
+,	=>	PUNCT	PunctType=Comm	,, 2, an
+-LRB-	=>	PUNCT	PunctSide=Ini|PunctType=Brck	
+-RRB-	=>	PUNCT	PunctSide=Fin|PunctType=Brck	
+.	=>	PUNCT	PunctType=Peri	., ?, !
+:	=>	PUNCT	_	--, :, ;, ..., -
+AFX	=>	ADJ	Hyph=Yes	
+CC	=>	CCONJ	_	and, or, but, &, nor
+CD	=>	NUM	NumType=Card	million, billion, one, two, three
+DT	=>	DET	_	the, a, an, this, some
+EX	=>	PRON	AdvType=Ex	there
+FW	=>	X	Foreign=Yes	de, perestroika, glasnost, vs., naczelnik
+HYPH	=>	PUNCT	PunctType=Dash	
+IN	=>	ADP	_	of, in, for, on, that
+JJ	=>	ADJ	Degree=Pos	new, other, last, such, first
+JJR	=>	ADJ	Degree=Cmp	more, higher, lower, less, better
+JJS	=>	ADJ	Degree=Sup	most, least, largest, latest, best
+LS	=>	X	NumType=Ord	3, 2, 1, 4, First
+MD	=>	VERB	VerbType=Mod	will, would, could, can, may
+NIL	=>	X	_	), }
+NN	=>	NOUN	Number=Sing	%, company, year, market, share
+NNP	=>	PROPN	Number=Sing	Mr., U.S., Corp., New, Inc.
+NNPS	=>	PROPN	Number=Plur	Securities, Democrats, Americans, Brothers, Airlines
+NNS	=>	NOUN	Number=Plur	years, shares, sales, companies, prices
+PDT	=>	DET	AdjType=Pdt	all, such, half, both, nary
+POS	=>	PART	Poss=Yes	's, '
+PRP	=>	PRON	PronType=Prs	it, he, they, I, we
+PRP$	=>	DET	Poss=Yes|PronType=Prs	its, his, their, our, her
+RB	=>	ADV	Degree=Pos	n't, not, also, only, as
+RBR	=>	ADV	Degree=Cmp	more, earlier, less, higher, further
+RBS	=>	ADV	Degree=Sup	most, best, least, hardest, Worst
+RP	=>	ADP	PartType=Vbp	up, out, off, down, in
+SYM	=>	SYM	_	a, c, \*, \*\*, b
+TO	=>	PART	PartType=Inf|VerbForm=Inf	to, na
+UH	=>	INTJ	_	yes, well, no, OK, oh
+VB	=>	VERB	VerbForm=Inf	be, have, make, buy, get
+VBD	=>	VERB	Tense=Past|VerbForm=Fin	said, was, were, had, did
+VBG	=>	VERB	Aspect=Prog|Tense=Pres|VerbForm=Part	including, being, according, going, making
+VBN	=>	VERB	Aspect=Perf|Tense=Past|VerbForm=Part	been, expected, made, based, sold
+VBP	=>	VERB	Tense=Pres|VerbForm=Fin	are, have, do, say, 're
+VBZ	=>	VERB	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	is, has, says, 's, does
+WDT	=>	DET	PronType=Int,Rel	which, that, what, whatever, .what
+WP	=>	PRON	PronType=Int,Rel	who, what, whom, whoever
+WP$	=>	DET	Poss=Yes|PronType=Int,Rel	whose
+WRB	=>	ADV	PronType=Int,Rel	when, how, where, why, whenever
+``	=>	PUNCT	PunctSide=Ini|PunctType=Quot	``, `, non-``

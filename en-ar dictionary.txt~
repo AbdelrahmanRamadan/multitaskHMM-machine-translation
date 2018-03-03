@@ -1,0 +1,24 @@
+the|DET|B-NP|O ال
+teacher|NOUN|I-NP|O مدرس
+gave|VERB|B-VP|O اعطى
+brilliant|ADJ|I-NP|O متألق
+student|NOUN|I-NP|O طالب
+a|DET|B-NP|O 
+book|NOUN|I-NP|O كتاب
+boys|NOUN|I-NP|O 
+ran|VERB|B-VP|O
+Ahmed|PROPN|B-NP|B-PER
+came|VERB|B-VP|O
+quickly|ADV|B-ADVP|O
+small|ADJ|I-NP|O
+house|NOUN|I-NP|O
+They|PRON|B-NP|O
+elected|VERB|B-VP|O
+him|PRON|B-NP|O
+president|NOUN|I-NP|O
+lives|NOUN|I-NP|O
+good|ADJ|I-NP|O
+life|NOUN|I-NP|O
+Alex|PROPN|B-NP|B-PER
+saw|VERB|B-VP|O
+Ahmed|PROPN|I-NP

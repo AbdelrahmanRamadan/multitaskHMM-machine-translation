@@ -1,0 +1,64 @@
+ tokens = ['EU', 'rejects', 'Egypt', 'call', 'to', 'boycott', 'British', 'lamb']
+
+ analysis = ([('EU', 'PROPN', 'B-NP', 'B-ORG'), ('rejects', 'VERB', 'B-VP', 'O'), ('Egypt', 'PROPN', 'B-NP', 'B-LOC'), ('call', 'VERB', 'B-VP', 'O'), ('to', 'PART', 'I-VP', 'O'), ('boycott', 'VERB', 'I-VP', 'O'), ('British', 'ADJ', 'B-NP', 'B-MISC'), ('lamb', 'NOUN', 'I-NP', 'O')], 4.898316377843017e-33)
+
+ chuncks = [('NP', [('EU', 'PROPN', 'B-NP', 'B-ORG')]), ('VP', [('rejects', 'VERB', 'B-VP', 'O')]), ('NP', [('Egypt', 'PROPN', 'B-NP', 'B-LOC')]), ('VP', [('call', 'VERB', 'B-VP', 'O'), ('to', 'PART', 'I-VP', 'O'), ('boycott', 'VERB', 'I-VP', 'O')]), ('NP', [('British', 'ADJ', 'B-NP', 'B-MISC'), ('lamb', 'NOUN', 'I-NP', 'O')])]
+
+ translation = ترفض المنظمة مكالمة بغرض مقاطعة مصر المصابيح البريطانية
+
+ tokens = ['The', 'teacher', 'gave', 'the', 'brilliant', 'student', 'a', 'book', '.']
+
+ analysis = ([('The', 'DET', 'B-NP', 'O'), ('teacher', 'NOUN', 'I-NP', 'O'), ('gave', 'VERB', 'B-VP', 'O'), ('the', 'DET', 'B-NP', 'O'), ('brilliant', 'ADJ', 'I-NP', 'O'), ('student', 'NOUN', 'I-NP', 'O'), ('a', 'DET', 'B-NP', 'O'), ('book', 'NOUN', 'I-NP', 'O'), ('.', 'PUNCT', 'O', 'O')], 4.445086575013639e-28)
+
+ chuncks = [('NP', [('The', 'DET', 'B-NP', 'O'), ('teacher', 'NOUN', 'I-NP', 'O')]), ('VP', [('gave', 'VERB', 'B-VP', 'O')]), ('NP', [('the', 'DET', 'B-NP', 'O'), ('brilliant', 'ADJ', 'I-NP', 'O'), ('student', 'NOUN', 'I-NP', 'O')]), ('NP', [('a', 'DET', 'B-NP', 'O'), ('book', 'NOUN', 'I-NP', 'O')]), ('O', [('.', 'PUNCT', 'O', 'O')])]
+
+ translation = اعطى المدرس الطالب المتألق كتاب .
+
+ tokens = ['The', 'boys', 'ran']
+
+ analysis = ([('The', 'DET', 'B-NP', 'O'), ('boys', 'NOUN', 'I-NP', 'O'), ('ran', 'VERB', 'B-VP', 'O')], 7.957314106267114e-14)
+
+ chuncks = [('NP', [('The', 'DET', 'B-NP', 'O'), ('boys', 'NOUN', 'I-NP', 'O')]), ('VP', [('ran', 'VERB', 'B-VP', 'O')])]
+
+ translation = جرى الأولاد
+
+ tokens = ['The', 'teacher', 'gave', 'the', 'student', 'a', 'book']
+
+ analysis = ([('The', 'DET', 'B-NP', 'O'), ('teacher', 'NOUN', 'I-NP', 'O'), ('gave', 'VERB', 'B-VP', 'O'), ('the', 'DET', 'B-NP', 'O'), ('student', 'NOUN', 'I-NP', 'O'), ('a', 'DET', 'B-NP', 'O'), ('book', 'NOUN', 'I-NP', 'O')], 1.7122200791455435e-24)
+
+ chuncks = [('NP', [('The', 'DET', 'B-NP', 'O'), ('teacher', 'NOUN', 'I-NP', 'O')]), ('VP', [('gave', 'VERB', 'B-VP', 'O')]), ('NP', [('the', 'DET', 'B-NP', 'O'), ('student', 'NOUN', 'I-NP', 'O')]), ('NP', [('a', 'DET', 'B-NP', 'O'), ('book', 'NOUN', 'I-NP', 'O')])]
+
+ translation = اعطى المدرس الطالب كتاب
+
+ tokens = ['Ahmed', 'came', 'quickly']
+
+ analysis = ([('Ahmed', 'PROPN', 'B-NP', 'B-PER'), ('came', 'VERB', 'B-VP', 'O'), ('quickly', 'ADV', 'B-ADVP', 'O')], 5.244646086369769e-15)
+
+ chuncks = [('NP', [('Ahmed', 'PROPN', 'B-NP', 'B-PER')]), ('VP', [('came', 'VERB', 'B-VP', 'O')]), ('ADVP', [('quickly', 'ADV', 'B-ADVP', 'O')])]
+
+ translation = جاء أحمد بسرعة
+
+ tokens = ['The', 'small', 'house']
+
+ analysis = ([('The', 'DET', 'B-NP', 'O'), ('small', 'ADJ', 'I-NP', 'O'), ('house', 'NOUN', 'I-NP', 'O')], 5.644118973896329e-11)
+
+ chuncks = [('NP', [('The', 'DET', 'B-NP', 'O'), ('small', 'ADJ', 'I-NP', 'O'), ('house', 'NOUN', 'I-NP', 'O')])]
+
+ translation = المنزل الصغير
+
+ tokens = ['They', 'elected', 'him', 'president']
+
+ analysis = ([('They', 'PRON', 'B-NP', 'O'), ('elected', 'VERB', 'B-VP', 'O'), ('him', 'PRON', 'B-NP', 'O'), ('president', 'NOUN', 'I-NP', 'O')], 9.810133443300832e-18)
+
+ chuncks = [('NP', [('They', 'PRON', 'B-NP', 'O')]), ('VP', [('elected', 'VERB', 'B-VP', 'O')]), ('NP', [('him', 'PRON', 'B-NP', 'O'), ('president', 'NOUN', 'I-NP', 'O')])]
+
+ translation = هم انتخبوه  رئيس
+
+ tokens = ['Ahmed', 'lives', 'a', 'good', 'life']
+
+ analysis = ([('Ahmed', 'PROPN', 'B-NP', 'B-PER'), ('lives', 'NOUN', 'I-NP', 'O'), ('a', 'DET', 'B-NP', 'O'), ('good', 'ADJ', 'I-NP', 'O'), ('life', 'NOUN', 'I-NP', 'O')], 1.5347912161717086e-21)
+
+ chuncks = [('NP', [('Ahmed', 'PROPN', 'B-NP', 'B-PER'), ('lives', 'NOUN', 'I-NP', 'O')]), ('NP', [('a', 'DET', 'B-NP', 'O'), ('good', 'ADJ', 'I-NP', 'O'), ('life', 'NOUN', 'I-NP', 'O')])]
+
+ translation = أحمد يعيش حياة جيدة
+

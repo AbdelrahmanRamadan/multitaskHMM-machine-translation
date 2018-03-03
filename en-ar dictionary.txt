@@ -1,0 +1,31 @@
+the|DET|B-NP|O ال
+teacher|NOUN|I-NP|O مدرس
+gave|VERB|B-VP|O اعطى
+brilliant|ADJ|I-NP|O متألق
+student|NOUN|I-NP|O طالب
+a|DET|B-NP|O 
+book|NOUN|I-NP|O كتاب
+boys|NOUN|I-NP|O أولاد
+ran|VERB|B-VP|O جرى
+ahmed|PROPN|B-NP|B-PER أحمد
+came|VERB|B-VP|O جاء
+quickly|ADV|B-ADVP|O بسرعة
+small|ADJ|I-NP|O صغير
+house|NOUN|I-NP|O منزل
+they|PRON|B-NP|O هم
+elected|VERB|B-VP|O انتخبوه
+him|PRON|B-NP|O
+president|NOUN|I-NP|O رئيس
+lives|NOUN|I-NP|O يعيش
+good|ADJ|I-NP|O جيدة
+life|NOUN|I-NP|O حياة
+alex|PROPN|B-NP|B-PER أليكس
+saw|VERB|B-VP|O رأي
+eu|PROPN|B-NP|B-ORG المنظمة
+rejects|VERB|B-VP|O ترفض
+egypt|PROPN|B-NP|B-LOC مصر
+call|VERB|B-VP|O مكالمة
+to|PART|I-VP|O بغرض
+boycott|VERB|I-VP|O مقاطعة
+british|ADJ|B-NP|B-MISC البريطانية
+lamb|NOUN|I-NP|O المصابيح
